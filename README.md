@@ -23,12 +23,12 @@ This application designed was built using React App. We installed NODES for our 
 
 times for that feature:
 
-Name of feature: ________________________________
+Name of feature: setting up my server in react.
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 
 
-Start time: _____
+Start time: 2:30
 
-Finish time: _____
+Finish time: 4:30
 
-Actual time needed to complete: _____
+Actual time needed to complete: WIP
