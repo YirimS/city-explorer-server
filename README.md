@@ -2,22 +2,20 @@
 
 # Project Name
 
-**Author**: Your Name Goes Here
+**Author**: Yirim Seck
 **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
-
+the goal is to build a custom API server, which will provide data for the City Explorer front-end application. the goal is to build a server that returns a map with city locations.
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+YOUR GOING TO WANT: Nodes js installed on your local machine, VS Code or your prefered code editor
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+This application designed was built using React App. We installed NODES for our web application. The technology we used for Axios to communicate with our Api. language used was javascript, in additiol to bootstrap for styling.  
 
 ## Change Log
-<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
+07-31-2001 8:30pm - created new repo for sever and did my file imports. 
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
