@@ -33,6 +33,12 @@ app.get('/weather',(req, res) => {
 
 });
 
+class Forcast {
+  constructor(day){
+
+  }
+}
+
 
 
 app.listen(PORT, () => console.log(`up on ${PORT}`));
