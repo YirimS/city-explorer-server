@@ -13,6 +13,8 @@ const cors = require('cors');
 app.use(cors());
 
 require('dotenv').config();
+
+
 const axios = require('axios');
 
 const PORT = process.env.PORT;
@@ -31,11 +33,17 @@ app.get('/weather',(req, res) => {
   let lon = req.query.lon;
   let searchQuery = req.query.searchQuery;
 
+  let result = data.find(city => city.city_name === searchQuery);
+
+  res.send(lat, lon, searchQuery);
+  
+  res.send(result.data.map(day => new Forcast(day)));
 });
 
 class Forcast {
   constructor(day){
-
+    this.date = day.valid_date;
+    this.description = day.weather.description;
   }
 }
 
